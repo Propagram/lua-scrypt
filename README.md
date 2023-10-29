@@ -21,15 +21,14 @@ Or download and extract it.
 ```lua
 local scrypt = require("scrypt")
 
--- N = Cpu cost, r = Memory cost, p = parallelization cost
 local result = scrypt(
                     "", -- Password
                     "", -- Salt
-                    16, -- Cpu cost
-                    1,  -- Memory cost
-                    1,  -- Parallelization cost
+                    16, -- Cpu cost (N)
+                    1,  -- Memory cost (r)
+                    1,  -- Parallelization cost (p)
                     64  -- dkLen
-                )
+               )
 
 print(result:lower()) --> 77d6576238657b203b19ca42c18a0497f16b4844e3074ae8dfdffa3fede21442fcd0069ded0948f8326a753a0fc81f17e8d3e0fb2e0d3628cf35e20c38d18906
 ```
