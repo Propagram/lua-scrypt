@@ -12,7 +12,7 @@ This module was inspired by https://github.com/cryptocoinjs/scryptsy
 
 Install via [Luarocks](https://luarocks.org):
 ```
-luarocks instal lockbox
+luarocks install lockbox
 ```
 Or download and extract it.
 
