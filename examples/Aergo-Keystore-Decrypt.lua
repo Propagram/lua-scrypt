@@ -14,7 +14,7 @@ local json = require("json")
 
 return function(keystore_file, keystore_password)
 
-  local file = io.open("keystore.txt", "r")
+  local file = io.open(keystore_file, "r")
   local content = file:read("*a")
   file:close()
 
