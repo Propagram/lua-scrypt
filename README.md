@@ -35,9 +35,8 @@ print(result:lower()) --> 77d6576238657b203b19ca42c18a0497f16b4844e3074ae8dfdffa
 
 ## TODO
 
- - Deploy to LuaRocks
  - Add tests
- - Add (if available) Luajit FFI to avoid memory dump (check out the LuaJIT-FFI-types branch)
+ - Add (if available) Luajit FFI to avoid memory dump (check out the LuaJIT-FFI-types branch; slower)
 
 ## License
 
