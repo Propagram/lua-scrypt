@@ -1,8 +1,8 @@
 package = "scrypt"
-version = "0.1.0-0"
+version = "0.1.1-0"
 
 source = {
- url = "git+ssh://git@github.com/Propagram/lua-scrypt.git",
+ url = "git://github.com/Propagram/lua-scrypt.git",
  branch = "main"
 }
 
@@ -17,7 +17,6 @@ Scrypt is a KDF (Key Derivation Function) designed for password storage by Colin
 }
 
 dependencies = {
-  "lua >= 5.1",
   "lockbox"
 }
 
